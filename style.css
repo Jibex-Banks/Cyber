@@ -2,6 +2,23 @@ body{
     margin: 0;
     padding: 0;
 }
+.Topnav{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: blue;
+    max-height: 50px;
+    display: flex;
+}
+
+.logo{
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+}
+
+
+
 .Navbar{
     background-color: blue;
     color: white;
@@ -10,14 +27,14 @@ body{
     position: fixed;
 }
 
-.Navbar ul{
-    list-style: none;
-    display: flex;
-    padding: 5px;
+
+
+li p{
+    margin: 0;
+    padding-top: 2px;
 }
-.Navbar li{
-    flex-direction: column;
-    align-content: space-between;
-    margin: 0 20px  0 20px;
-    text-align: center;
+
+ul a{
+    text-decoration: none;
+    color: #fff;
 }
