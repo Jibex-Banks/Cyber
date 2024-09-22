@@ -104,7 +104,21 @@ body{
     }
 }
 
-@media(min-width:768px){
+@media(max-width:425px){
+    .header{
+        padding: 1rem;
+    }
+
+    .navbar ul{
+        gap: 2rem;
+    }
+
+    .footer nav{
+        padding: 1rem 2rem;
+    }
+}
+
+@media(min-width:416px) and (max-width:768px){
     .navbar ul{
         gap: 5rem;
     }
