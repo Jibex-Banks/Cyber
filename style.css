@@ -94,7 +94,6 @@ body{
     .header{
         padding: 2rem;
     }
-
     .navbar ul{
         gap: 2rem;
     }
@@ -108,7 +107,9 @@ body{
     .header{
         padding: 1rem;
     }
-
+    .logo{
+        font-size: 1.6rem;
+    }
     .navbar ul{
         gap: 2rem;
     }
