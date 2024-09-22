@@ -104,7 +104,6 @@ body{
     }
 }
 
-/* <<<<<<< newFeatures */
 @media(min-width:768px){
     .navbar ul{
         gap: 5rem;
@@ -119,16 +118,15 @@ body{
     .footer nav{
         padding: 1rem 5rem;
     }
-=======
+
 ul a{
     text-decoration: none;
     color: #fff;
 }
-
+}
 @media screen  and (max-width: 600px) {
     .Navbar li{
         margin: auto 10px;
     }
     
-/* >>>>>>> main */
 }
